@@ -1,1 +1,11 @@
-
+<bug>
+<ID>1</ID>
+<Version>Windows 8"</Version>
+<Summary>Проходит валидация при не заполнении поля "Пароль" на странице регистрации на сайте"</Summary>
+<Steps>зайти на страницу "регистрация, ввести почту в поле, нажать кнопку "зарегестрироваться"</Steps>
+<Actual result>Проходит валидация при не заполнении поля "Пароль" на странице регистрации на сайте</Actual result>
+<Expected result>высвечивается красным поле "пароль" и предупреждение "обязательное поле заполнения"</Expected result>
+<Severity>major</Severity>
+<Priority>High</Priority>
+<Attachments> Скриншот</Attachments>
+</bug>
